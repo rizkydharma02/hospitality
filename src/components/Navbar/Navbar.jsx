@@ -3,9 +3,6 @@ import React, { useState } from 'react';
 
 import './Navbar.css';
 import { Link, NavLink } from 'react-router-dom';
-import { Contact } from './../pages/Contact';
-import { Login } from './../pages/Login';
-import { Register } from './../pages/Register';
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,7 +10,7 @@ export const Navbar = () => {
   return (
     <nav>
       <Link to="/" className="title">
-        Website
+        Hospitality
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
