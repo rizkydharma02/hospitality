@@ -2,5 +2,9 @@
 import React from 'react';
 
 export const About = () => {
-  return <div>About</div>;
+  return (
+    <div className="about-section">
+      <h1>Text</h1>
+    </div>
+  );
 };
