@@ -12,8 +12,8 @@ export const Navbar = () => {
       <Link to="/" className="title">
         <sub>
           <FaHotel style={{ color: 'orange', fontSize: '25px' }} />
-        </sub>{' '}
-        &nbsp; Gho Hotel
+        </sub>
+        &nbsp; GHO HOTEL
       </Link>
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
@@ -22,16 +22,16 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? 'open' : ''}>
         <li>
-          <NavLink to="/about">About</NavLink>
+          <NavLink to="/about">ABOUT</NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
         </li>
         <li>
-          <NavLink to="/login">Login</NavLink>
+          <NavLink to="/login">LOGIN</NavLink>
         </li>
         <li>
-          <NavLink to="/register">Register</NavLink>
+          <NavLink to="/register">REGISTER</NavLink>
         </li>
       </ul>
     </nav>

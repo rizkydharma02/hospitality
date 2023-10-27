@@ -18,8 +18,8 @@ nav .title {
   font-weight: bold;
   text-decoration: none;
   color: white;
-  text-transform: uppercase;
   margin-left: 1.5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav ul {
