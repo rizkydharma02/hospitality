@@ -4,7 +4,7 @@ import React from 'react';
 export const About = () => {
   return (
     <div className="about-section">
-      <h1>Text</h1>
+      <h1>About</h1>
     </div>
   );
 };
